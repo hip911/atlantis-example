@@ -6,8 +6,11 @@ terraform {
   }
 }
 
-resource "null_resource" "example" {
+
+resource "random_id" "test" {
+  byte_length = 5
 }
 
-resource "null_resource" "example2" {
+output "random" {
+  value = random_id.test.id
 }
