@@ -5,7 +5,7 @@ terraform {
 }
 
 
-resource "random_id" "test" {
+resource "random_id" "test2" {
   byte_length = 5
 }
 
