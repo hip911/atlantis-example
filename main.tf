@@ -6,7 +6,7 @@ terraform {
 
 
 resource "random_id" "test2" {
-  byte_length = 5
+  byte_length = 6
 }
 
 resource "random_id" "test" {
